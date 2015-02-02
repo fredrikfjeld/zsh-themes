@@ -142,5 +142,4 @@ ${omg_second_line}"
     fi
 
     echo "${prompt}"
-    echo "lollorino"
 }
