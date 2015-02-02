@@ -147,10 +147,9 @@ function enrich_append {
       prompt="${black_on_white} "
       prompt+="$SEP_PATH ${white_on_black} ${black_on_red}"
       prompt+="%k%f
-      ${omg_second_line}"
+${omg_second_line}"
       #prompt="${omg_ungit_prompt}"
     fi
 
     echo "${prompt}"
   }
-  
