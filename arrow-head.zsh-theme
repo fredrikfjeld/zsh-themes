@@ -28,7 +28,7 @@
 autoload -U colors && colors
 
 PROMPT='$(build_prompt)'
-RPROMPT='%(?.%{${fg[green]}%}✓%{${reset_color}%}.%{${fg[red]}%}✘%{${reset_color}%}) %{$reset_color%}$ff_clock_symbol %T %{$fg_bold[white]%}$ff_date_symbol %D%{$reset_color%}'
+RPROMPT='%(?.%{${fg[green]}%}✓%{${reset_color}%}.%{${fg[red]}%}✘%{${reset_color}%}) %{$reset_color%}$ff_clock_symbol %T%{$reset_color%}'
 
 function enrich_append {
   local flag=$1
